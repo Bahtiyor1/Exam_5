@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+}
+.wrapper_nav {
+    box-shadow: 0px 0px 10px 10px #00000080;
+    width: 100%;
+    background-color: #272C3D;
+    padding: 0px 29px 0 20px;
+    height: 70px;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.navigation > ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 17px;
+}
+
+.navigation > ul >li > a {
+    font-family: Quantico;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+    text-align: left;
+    text-decoration: none;    
+    color: white;
+}
+
+.navigation > ul > li{
+    transition: all 0.5s;
+}
+
+.navigation > ul > li:hover {
+    transform: scale(1.2);
+}
+
+.navigation > ul > li>a:hover {
+    transition: all 0.5s;
+    color: #FF9C28;
+}
+
+
+
+.search-lang {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.input > img {
+    position: absolute;
+    top: 2px;
+    right: 7px;
+}
+.input > input {
+    width: 190px;
+    height: 30px;
+    background-color: #404864;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.input {
+    position: relative;
+}
+
+select {
+    background-color: #00000080;
+    width: 130px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 0 0 5px;
+}
+.wrapper_hero {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.hero {
+    background-image: url('./assets/img/CS.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+main {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+
+
+.text_bg {
+    position: relative;
+}
+
+.text_bg >h2{
+    font-family: Quantico;
+    position: absolute;
+    top: 660px;
+    left: 655px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34.32px;
+    color: white;    
+}
+
+.text_bg > p{
+    font-family: Quantico;
+    position: absolute;
+    top: 700px;
+    left: 605px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.02px;
+    color: #FFFFFFCC;
+}
+
+main > h1 {
+    font-family: Quantico;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFFFFF 36.75%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding: 10px 20px 0 0;
+}
+
+.Card > h2 {
+    font-family: Quantico;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+    color: white;    
+}
+
+.s_sec {
+    width: 800px;
+    margin: 20px 0 0 370px;
+    background-color: #1B1E27;
+    /* height: 100vh; */
+    padding: 30px 0 188px 30px;
+}
+
+.img_text {
+    display: flex;
+    margin-top: 30px;
+    gap: 17px;
+}
+
+.img_text > p {
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    color: #BFBFBF;    
+    width: 323px;
+}
+
+.social_media {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.social_media > a > p {
+    font-family: Quantico;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    color: white; 
+    margin-top: 18.5px;
+    text-decoration: none;
+    color: white;   
+}
+
+footer {
+    width: 100%;
+    background-color: #272C3D;
+    height: 70px;
+    padding: 0 34px 0 26px;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-top: 16px;
+}
+
+
+
+
+
+
+
+
